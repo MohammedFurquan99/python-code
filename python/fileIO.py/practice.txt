@@ -1,4 +1,0 @@
-hi everyone
- we are learning file
-using python script.
- like programming in python.
