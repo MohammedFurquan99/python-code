@@ -55,9 +55,22 @@ else:
     print("INVALID")
 
 
-print("----- BOOKING CONFIRMED -----")
-print("Customer:", customer_name)
-print("Barber:", selected_barber)
-print("Service:", selected_service)
-print("Price:", price)
-print("Time:", appointment_time)
+print("----- BARBER PANEL -----")
+print("1. Approve")
+print("2. Reject")
+
+approval = int(input("Barber choice: "))
+
+if approval == 1:
+    print("-------BOOKING APPROVED--------")
+    print("Customer:", customer_name)
+    print("Barber:", selected_barber)
+    print("Service:", selected_service)
+    print("Price:", price)
+    print("Time:", appointment_time)
+
+elif approval == 2:
+    print("BOOKING REJECTED")
+
+else:
+    print("INVALID CHOICE")
